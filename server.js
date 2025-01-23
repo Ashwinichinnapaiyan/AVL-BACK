@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 
 mongoose
-  .connect('mongodb+srv://Ashwini:Ashvni09@cluster0.96ohe.mongodb.net/AVL-HUB?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect('mongodb+srv://Ashwini:Ashvni09@cluster0.96ohe.mongodb.net/AVL-HUB?retryWrites=true&w=majority&appName=Cluster0',)
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("Error connecting to MongoDB:", err));
 
